@@ -7,7 +7,7 @@ public class selection_sort {
         printArray(arr); 
     }  
 
-    public static void selectionSort(int[] arr) {  
+    public static void selectionSort(int[] arr) {   
         int n = arr.length;  
         for (int i = 0; i < n - 1; i++) {  
             int idx = i;  
